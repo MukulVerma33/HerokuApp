@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+<title>MV33</title>
+<link rel="stylesheet" href="{{url_for('static',filename='main-css.css')}}">
+<!--link rel="stylesheet" href="{{ url_for('static',filename='styles/main-css.css') }}"-->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+ 
+<header>
+	<div class="logo float-left">
+	</div> 
+	<div class="nav-icon float-right">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+</header>
+
+
+<!-- Full Menu -->
+<div class="full-menu">
+	<div class="fullmenu-content">
+		<ul class="page-menu">
+			<li><a  href="{{url_for('index')}}" class="hover-link">Home</a></li>
+			<li><a href="" class="hover-link">About</a></li>
+			<li><a href="" class="hover-link">Blog Posts</a></li>
+			<li><a href="" class="hover-link">Contact</a></li>
+			<li><a href="#" class="hover-link">Buy Now</a></li>
+			<li class="social">
+				<a href="#"><img class="logo-menu" src="{{url_for('static',filename='Images/icons/social/twitter.svg')}}" alt=""></a>
+				<a href="#"><img class="logo-menu" src="{{url_for('static',filename='Images/icons/social/dribbble.svg')}}" alt=""></a>
+				<a href="#"><img class="logo-menu" src="{{url_for('static',filename='Images/icons/social/instagram.svg')}}" alt=""></a>
+				<a href="#"><img class="logo-menu" src="{{url_for('static',filename='Images/icons/social/send.svg')}}" alt=""></a>
+			</li>
+		</ul>
+	</div>
+	<a href="#0" class="modal-close"></a>
+</div>
+<div class="cd-transition-layer visible opening"> 
+	<div class="bg-layer"></div>
+</div><!-- Ink Transition -->
+
+<div class="wrapper">
+ 
+<section class="main">
+	<div class="main-content">
+        <span class="hello"></span>
+
+
+
+
+        <div class="welcome">Welcome</div>
+        <div id="gradient-image">
+          <img src="{{url_for('static',filename='Images/images/rightPic.JPG')}}">
+          <div class="loader">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          </div>
+         </div>
+     
+         <div class="text">Hello friends my name is Mukul Verma aka MV33 nice to meet you and 
+           welcome to my ever so beautiful resume.<br>
+           This will take you through a journey of my entire life and what things i have achieved till this point in my life.
+         </div>
+     
+	 
+	 
+</section>
+
+
+
+<script src="{{url_for('static',filename='js/jquery-2.1.4.min.js')}}"></script>
+ 
+
+
+<script src="{{url_for('static',filename='js/main-js.js')}}"></script>
+
+ 
+    </div>  
+</body>
+</html>
